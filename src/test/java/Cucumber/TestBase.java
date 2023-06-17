@@ -9,7 +9,7 @@ public class TestBase {
 	
 	public static void intilize()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\JenkinsBatch3Job\\src\\test\\resources\\chromedriver.exe\"");
+		System.setProperty("webdriver.chrome.driver", "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\JenkinsBatch3Job\\src\\test\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.saucedemo.com/");
