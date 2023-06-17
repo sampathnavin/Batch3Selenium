@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Day17.TestNG"/>
+      <class name="Cucumber.TestRunner"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

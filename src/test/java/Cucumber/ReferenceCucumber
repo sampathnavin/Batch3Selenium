@@ -1,0 +1,37 @@
+POM - Test Desgin Frame work 
+
+Cucumber - Testing Frame work - Which will helps us to reduce the lines of code and makes the testing easier
+
+It uses Common Language - English
+
+BDD - Behaviour data driven F/W 
+
+
+CUCUMBER DEPENDENCY IN OUR POM.XML
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>6.11.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>6.11.0</version>
+</dependency>
+
+
+
+
+Feature File - English words [U r feeding how it should behave in english words] Using TAGS - @GIVEN , @WHEN , @THEN,  @AND
+
+Step Definition - It will convert ur English words into a methods 
+
+Test Runner - It will use Cucumber options which will glue ur Feature file and Step definition 
+
+
+-- install cucumber plug in 

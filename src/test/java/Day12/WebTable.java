@@ -62,7 +62,6 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\eclipse-workspac
 				System.out.println(e1.getText());
 			}
 			//System.out.println("The Row Datas are " + tditeration.getText());
-			Thread.sleep(Duration.ofSeconds(3));
 		}
 		
 		

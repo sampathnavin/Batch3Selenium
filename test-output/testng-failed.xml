@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Day17.TestNG">
+      <class name="POM.Pom">
         <methods>
-          <include name="productinfotc04"/>
-          <include name="logintc01"/>
-          <include name="hometc02"/>
-          <include name="checkouttc03"/>
+          <include name="tes"/>
+          <include name="bt"/>
+          <include name="at"/>
         </methods>
-      </class> <!-- Day17.TestNG -->
+      </class> <!-- POM.Pom -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
